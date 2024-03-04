@@ -1,0 +1,722 @@
+/* RESPONSIVE */
+/* Smartphone styles */
+@media screen and (max-width: 767px) {
+    * {
+        box-sizing: content-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        overflow: scroll;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed
+    }
+
+    header {
+        background-color: #333333d1;
+        color: #fff;
+        display: block;
+        align-items: center;
+        padding: 8px;
+        justify-content: space-evenly;
+        height: 8rem;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+
+    .siteLogo {
+        display: block;
+    }
+
+    .siteLogo h1 {
+        text-decoration: none;
+        justify-content: left;
+        left: 0;
+        top: 0;
+        position: absolute;
+        font-size: 20px;
+        font-weight: bolder;
+        font-style: italic;
+        margin-top: 0rem;
+        margin-left: 5px;
+        animation: bowAnimation 2s linear infinite;
+    }
+
+    #logo {
+        width: 45px;
+        height: 45px;
+        justify-content: left;
+        position: absolute;
+        margin: 15px;
+        margin-top: 2.1rem;
+    }
+
+    #menu-button {
+        padding: 1px;
+        cursor: pointer;
+        justify-content: right;
+        position: absolute;
+        margin-top: 1.4rem;
+    }
+
+    #idCorner {
+        justify-self: right;
+    }
+
+    #avatar {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin: 10px;
+    }
+
+    .navbar {
+        display: block;
+        justify-content: space-around;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 5rem;
+    }
+
+    .navbar button {
+        margin-right: 0;
+    }
+
+    .navbar a {
+        font-size: 14px;
+        height: max-content;
+        margin: -8px;
+    }
+
+    .navbar button i {
+        margin-right: 2px;
+    }
+
+    #logging {
+        display: flex;
+        margin: 4px;
+        justify-content: right;
+        right: 0;
+        top: 0;
+        position: absolute;
+        margin-top: 0rem;
+        font-size: 14px;
+    }
+
+    #logging a {
+        margin: 5px;
+        right: 0;
+        justify-self: right;
+        margin-top: 0rem;
+    }
+
+    .searchContainer {
+        margin: 0 auto;
+        position: absolute;
+        width: 50%;
+        margin-top: 2.3rem;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .searchContainer button {
+        width: 10%;
+    }
+
+    .searchContainer button i {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .accountFlex {
+        display: grid;
+        grid-template-columns: repeat(1, 0fr);
+    }
+
+    #logForm {
+        width: max-content;
+    }
+
+    .accountFlex form {
+        width: 85%;
+    }
+
+    .mainbox {
+        display: block;
+    }
+
+    #main {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    #forum {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        max-height: 100%;
+    }
+
+    .forumcontainer {
+        width: 95%;
+        padding: 0;
+        margin: 0 auto;
+        max-height: 100%;
+    }
+
+    .subforum {
+        margin-top: 15px;
+        text-decoration: none;
+        max-height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .subforum-row {
+        width: 100%;
+        padding: 0;
+        margin-top: 5px;
+        height: min-content;
+    }
+
+    .subforum-title {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .subforum-icon i {
+        margin: 0 auto;
+        width: 100%;
+        font-size: 25px;
+        padding: 0;
+        margin-top: 23px;
+        margin-bottom: 23px;
+    }
+
+    .subforum-icon {
+        margin: 0 auto;
+        width: 100%;
+        font-size: 25px;
+        padding: 0;justify-content: center;
+        align-self: center;
+    }
+
+    .subforum-description {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    .subforum-description p {
+        margin: 0 auto;
+    }
+
+    .subforum-description div {
+        margin: 0 auto;
+        display: flex;
+        width: fit-content;
+    }
+
+    .subforum-stats {
+        text-align: center;
+        display: block;
+        font-size: 12px;
+        margin: 0 auto;
+        width:  100%;
+    }
+
+    .subforum-info {
+        margin: auto;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        width: 98%;
+    }
+
+    .subforum-info a {
+        font-size: 10px;
+        display: block;
+        padding: 0;
+    }
+
+    .right-sidebar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 80%;
+    }
+
+    .updates {
+        margin: 0 auto;
+        display: block;
+        width: max-content;
+        margin-bottom: 10px;
+    }
+
+    .updates li a {
+        margin: 0 auto;
+    }
+
+    /* profile */
+    .mainbox {
+        padding: 0;
+        margin: 0;
+        display: block;
+    }
+
+    .mainContainer {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        height: 100%;
+    }
+
+    .asideBar
+     {
+        width: 22%;
+        padding: 0;
+    }
+
+    .activ {
+        width: 25%;
+        padding: 0;
+    }
+
+    .activity {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    #activity-list {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        
+    }
+    
+    #activity-list h5 {
+        font-size: 13px;
+        margin: 4px;
+        text-align: center;
+    }
+
+    #activity-list li {
+        text-align: center;
+        font-size: 11px;
+    }
+    
+    .mainStatus {
+        flex-direction: column;
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+        padding: 0;
+        height: 100%;
+    }
+
+    #postStatus {
+        display: flex;
+        justify-content: space-evenly;
+        border-radius: 8px;
+        height: max-content;
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+        margin-top: 5px;
+    }
+
+    #postHere {
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        margin: 0 ;
+        height: max-content;
+        padding: 0;
+    }
+
+    #posted {
+        width: 50%;
+        margin: 0 auto;
+        padding: 0px 3px;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #507b97;
+    }
+
+    .state,
+    #status {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        height: 100%;
+    }
+
+    .replying {
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .comments {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .comments button, #status button {
+        width: 25%;
+        padding: 0;
+        margin: 0 auto;
+        display: flex;
+    }
+    .postReply {
+        width: 90%;
+        margin: 0;
+        padding: 0;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
+
+    .statusContainer {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #replyModalContainer, #modalContainer {
+        width: max-content;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+        justify-self: center;
+        background-color: transparent;
+    }
+
+    #modal, #replyModal {
+        width: 90%;
+        padding: 0;
+        margin: 0 auto;
+        margin-top: 10rem;
+    }
+
+    .userContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .userContainer p {
+        margin: 4px;
+        font-size: 11px;
+    }
+
+    /* pictures : cover et avatar */
+    .coverContainer {
+        position: relative;
+        width: 100%;
+        max-height: 150px;
+        overflow: hidden;
+        background-color: none;
+        top: 0;
+        padding: 0;
+        margin: 0 auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        /* un peu d'ombrage pour stylé les bloques balisés */
+    }
+
+    #coverPicture {
+        width: 100%;
+        max-height: 150px;
+        object-fit: cover;
+        top: 0;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+
+    .avatarContainer {
+        padding: 0;
+        width: 90%;
+        height: max-content;
+        margin-top: -9rem;
+        position: relative;
+        z-index: 3;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+        margin-bottom: 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #profileAvy {
+        padding: 0;
+        width: 97px;
+        height: 97px;
+        margin: 5px;
+        object-fit: cover;
+        border-radius: 50%;
+        cursor: pointer;
+        justify-content: center;
+        animation: pulse 2s infinite;
+    }
+
+    #editAvatar {
+        width: max-content;
+        padding: 5px 22px;
+        border: none;
+        cursor: pointer;
+        z-index: 3;
+        position: relative;
+        justify-content: center;
+        right: 126px;
+        margin-top: -5rem;
+    }
+
+    .overLay {
+        position: relative;
+        bottom: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        transition: .5s ease;
+        opacity: 0;
+        display: inline;
+        border-radius: 15px;
+        justify-content: center;
+    }
+
+    /* topics  */
+    .topicsContainer {
+        display: inline-block;
+        grid-template-columns: none;
+        grid-template-rows: none;
+        gap: 1rem;
+        padding: 0;
+        margin: 0 auto;
+        height: 100%;
+    }
+
+    .topicBottom {
+        padding: 1rem;
+        width: max-content;
+        margin: 0 auto;
+    }
+
+    .topicContent {
+        background-color: #dee3e7de;
+        border-radius: 7px;
+    }
+
+    .topicBottom h2 {
+        width: fit-content;
+    }
+
+    .topic {
+        border: 1px solid dark;
+        margin: 15px;
+        width: max-content;
+        padding: 0;
+    }
+
+    a.cta {
+        background-color: transparent;
+        border-radius: 3px;
+        margin: 0 auto;
+        padding: 0;
+        width: fit-content;
+    }
+
+    button.cta {
+        background-color: lightskyblue;
+        margin: 5px;
+        padding: 0;
+        width: fit-content;
+    }
+
+    /* topic thread */
+    #threadMain {
+        width: 400px;
+        margin: 0 auto;
+        padding: 0;
+        display: block;
+        height: 100%;
+    }
+
+    #threadHeader {
+        padding: 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #threadContains {
+        margin: 0 auto;
+        padding: 0;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #contents {
+        font-size: 16px;
+    }
+
+    .interact {
+        margin: 0 auto;
+        padding: 0;
+        width: 20%;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        bottom: 0;
+        margin-top: 1rem;
+    }
+
+    #logFormEdits {
+        width: 80%;
+        z-index: 1;
+        margin-top: 1.7rem;
+    }
+
+    #editForme {
+        display: block;
+        margin: 8px;
+        padding: 0;
+        margin-bottom: 0.8rem;
+    }
+
+    .replyText {
+        display: flex;
+        padding: 0;
+        width: 100%;
+    }
+
+    .postReply {
+        padding: 0;
+        margin: 0 auto;
+        width:  100%;
+    }
+    #likeBtn,
+    #replyBtn,
+    #replyRepliesBtn,
+    #replyLikeBtn,
+    #replyModalBtn,
+    #editModal, 
+    #openModalBtn {
+        font-size: 12px;
+        margin: 5px;
+        padding: 0;
+    }
+
+    #userCard {
+        width: max-content;
+    }
+
+    #repliesContains {
+        margin: 0 auto;
+        padding: 0;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #repliesContains .interact {
+        width: 40%;
+    }
+
+    #userPosting {
+        margin: 0 auto;
+        padding: 0;
+        width: 80%;
+        bottom: 0;
+        position: relative;
+    }
+
+    .footer {
+        position: relative;
+        text-align: center;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .footer a {
+        margin: 0;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    .footer p {
+        margin: 15px;
+    }
+
+}
+
+/* Tablet styles */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        overflow: scroll;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .navbar {
+        margin-top: 5rem;
+    }
+
+    #searching {
+        width: 40%;
+    }
+
+    .right-sidebar {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    
+}
+
+/* PC styles */
+@media screen and (min-width: 1024px) {
+
+    body {
+        overflow: scroll;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .navbar {
+        margin-top: 5rem;
+    }
+
+    #searching {
+        width: 25%;
+    }
+
+    .right-sidebar {
+        width: 40%;
+        margin: 0 auto;
+    }
+}

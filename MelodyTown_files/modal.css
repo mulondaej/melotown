@@ -1,0 +1,114 @@
+/* modal styling */
+#profiModalBtn {
+    color: black;
+}
+
+#openModalBtn {
+    background-color: rgb(227, 75, 75);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    justify-content: center;
+    margin: 12px;
+    width: max-content;
+    height: max-content;
+}
+
+#modalText, #delete {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#modalContainer {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+#modal {
+    background-color: whitesmoke;
+    padding: 0.5rem;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+
+#closeBtn {
+    cursor: pointer;
+    float: right;
+}
+
+#delete input {
+    background-color: rgb(223, 58, 58);
+    color: rgb(0, 0, 0);
+}
+
+#openModalBtn {
+    background-color: rgb(223, 58, 58);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    justify-content: center;
+    margin: 12px;
+    width: max-content;
+    height: max-content;
+}
+
+#replyModalText, #replyDelete {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#replyModalContainer {
+    background-color: transparent;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+#replyModal {
+    background-color: rgb(238, 241, 243);
+    padding: 0.5rem;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+#replyCloseBtn {
+    cursor: pointer;
+    float: right;
+}
+
+#replyDelete input {
+    background-color: rgb(223, 58, 58);
+    color: rgb(0, 0, 0);
+}
+
+#logForm button {
+    border-radius: 8px;
+}
+
+#logForm button a {
+    color: white;
+}
